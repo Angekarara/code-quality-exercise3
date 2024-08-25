@@ -5,3 +5,6 @@ const checkPrimeNumber = (number) => {
     ? ![...Array(number).keys()].slice(2).some((i) => number % i === 0)
     : false;
 };
+console.log(checkPrimeNumber(23))
+console.log(checkPrimeNumber(20))
+
